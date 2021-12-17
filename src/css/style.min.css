@@ -214,8 +214,8 @@ header .container {
 .bestseller__item {
   padding: 40px;
   border-radius: 20px;
-  -webkit-box-shadow: 0 0 5px #7e7e7e;
-          box-shadow: 0 0 5px #7e7e7e;
+  -webkit-box-shadow: 0 0 5px #DFDFDF;
+          box-shadow: 0 0 5px #DFDFDF;
 }
 
 .bestseller__item:nth-child(2) {
@@ -280,8 +280,8 @@ header .container {
   padding: 60px;
   width: 100%;
   margin-bottom: 10%;
-  -webkit-box-shadow: 0 0 5px #7e7e7e;
-          box-shadow: 0 0 5px #7e7e7e;
+  -webkit-box-shadow: 0 0 5px #DFDFDF;
+          box-shadow: 0 0 5px #DFDFDF;
   border-radius: 20px;
 }
 
@@ -393,8 +393,8 @@ header .container {
 .proff__item {
   padding: 40px;
   border-radius: 20px;
-  -webkit-box-shadow: 0 0 5px #7e7e7e;
-          box-shadow: 0 0 5px #7e7e7e;
+  -webkit-box-shadow: 0 0 5px #DFDFDF;
+          box-shadow: 0 0 5px #DFDFDF;
 }
 
 .proff__item:nth-child(2) {
