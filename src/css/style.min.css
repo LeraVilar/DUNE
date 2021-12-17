@@ -249,9 +249,7 @@ header .container {
 }
 
 .stream {
-  background: url("../../assets/Group 3088.jpg") no-repeat;
-  background-position: bottom -15% right 50%;
-  background-size: contain;
+  background: center/cover url("../../assets/Group 3088.jpg") no-repeat;
 }
 
 .stream .container {
@@ -269,7 +267,8 @@ header .container {
 
 .stream__title {
   font-size: 48px;
-  margin: 5% 0;
+  margin-top: 5%;
+  margin-bottom: 25%;
 }
 
 .stream__about {
@@ -279,10 +278,11 @@ header .container {
   background: #FFF;
   padding: 60px;
   width: 100%;
-  margin-bottom: 10%;
   -webkit-box-shadow: 0 0 5px #DFDFDF;
           box-shadow: 0 0 5px #DFDFDF;
   border-radius: 20px;
+  margin-top: -20%;
+  margin-bottom: 15%;
 }
 
 .stream__logos {

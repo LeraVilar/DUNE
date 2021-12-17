@@ -189,9 +189,7 @@ header {
 }
 
 .stream {
-    background: url('../../assets/Group\ 3088.jpg') no-repeat;
-    background-position: bottom -15% right 50%;
-    background-size: contain;
+    background: center/cover url('../../assets/Group\ 3088.jpg') no-repeat;
     // margin-top: 15%;
     & .container {
         display: flex;
@@ -200,17 +198,18 @@ header {
     }
     &__title {
         font-size: 48px;
-        margin: 5% 0;
+        margin-top: 5%;
+        margin-bottom: 25%;
     }
     &__about {
         display: flex;
         background: #FFF;
         padding: 60px;
         width: 100%;
-        // margin-top: -15%;
-        margin-bottom: 10%;
         box-shadow: 0 0 5px #DFDFDF;
         border-radius: 20px;
+        margin-top: -20%;
+        margin-bottom: 15%;
     }
     &__logos {
         display: flex;
