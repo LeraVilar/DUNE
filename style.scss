@@ -494,6 +494,14 @@ header {
         margin: 5% 0;
         border-radius: 10px;
         text-align: center;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.5s ease-in-out;
+        &.in-view {
+            transform: none;
+            visibility: visible;
+            opacity: 1;
+        }
         &::after {
             content: '';
             position: absolute;
@@ -508,6 +516,10 @@ header {
         }
         &.left {
             left: 0;
+            transform: translate3d(-200px, 0, 0);
+            &.in-view {
+                transform: translate3d(0px, 0, 0);
+            }
             & .timeline__card-date {
                 position: absolute;
                 top: 0;
@@ -518,6 +530,10 @@ header {
         }
         &.right {
             left: 60%;
+            transform: translate3d(200px, 0, 0);
+            &.in-view {
+                transform: translate3d(0px, 0, 0);
+            }
             &::after {
                 left: -28%;
             }
