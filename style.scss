@@ -877,6 +877,26 @@ header {
     }
 }
 
+.support {
+    &__item {
+        font-size: 28px;
+    }
+    &__card {
+        border: 1px solid #000;
+        display: none;
+        &.active {
+            display: flex;
+        }
+    }
+    &__content {
+        display: none;
+        color: red;
+        &.active {
+            display: flex;
+        }
+    }
+}
+
 .footer {
     background: #161616;
     color: #FFF;
