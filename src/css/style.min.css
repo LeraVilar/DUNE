@@ -1378,6 +1378,12 @@ header .container {
 
 .operators__desc {
   margin-bottom: 150px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.operators__desc p {
+  font-size: 20px;
 }
 
 .operators__list {

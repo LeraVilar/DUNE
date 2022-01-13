@@ -967,8 +967,12 @@ header {
     }
 	&__desc {
         margin-bottom: 150px;
-
-    }
+        font-size: 18px;
+        line-height: 28px;
+        & p {
+            font-size: 20px;
+        }
+    }  
 	&__list {
         background: #FFF;
         padding: 80px 0;
