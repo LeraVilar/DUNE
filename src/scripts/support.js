@@ -9,6 +9,7 @@ nav.forEach(element => {
         let data_nav = element.dataset.index;
         sub_nav.forEach(el => {
             el.classList.remove('active');
+
             deb();
             let data_sub = el.dataset.parent;
             if(data_nav == data_sub) {
@@ -18,7 +19,7 @@ nav.forEach(element => {
     }
 });
 sub_nav.forEach(sub => {
-    sub.onclick = function(){
+    sub.onclick = function(){  
         let data_child = sub.dataset.child;
         end_nav.forEach(e => {
             e.classList.remove('active');

@@ -936,7 +936,6 @@ header {
         box-shadow: 0 0 5px #DFDFDF;
         padding: 20px 20px;
         line-height: 30px;
-        // color: red;
         &.active {
             display: flex;
         }
@@ -956,6 +955,47 @@ header {
             font-weight: 800;
             font-size: 24px;
         }
+    }
+}
+.operators {
+	&__title {
+        font-size: 48px;
+        margin-top: 50px;
+    }
+	&__subtitle {
+        margin: 30px 0;;
+    }
+	&__desc {
+        margin-bottom: 150px;
+
+    }
+	&__list {
+        background: #FFF;
+        padding: 80px 0;
+    }
+	&__item {
+        margin: 0 0 120px 0;
+    }
+	&__item-preview {
+        display: flex;
+        align-items: center;
+        margin: 20px 0;
+    }
+	&__item-img {
+        flex: 0 0 50%;
+        & img {
+            width: 100%;
+        }
+    }
+	&__item-repres {
+        padding-left: 20px;
+    }
+	&__item-title {
+        font-size: 48px;
+    }
+	&__item-desc {
+        font-size: 18px;
+        padding-right: 50%;
     }
 }
 
