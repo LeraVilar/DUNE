@@ -1007,7 +1007,9 @@ header {
     & p {
         font-size: 18px;
     }
-	&__title {}
+	&__title {
+        font-size: 48px;
+    }
 	&__subtitle {
         font-size: 24px;
         margin: 40px 0 80px 0;
