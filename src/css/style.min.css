@@ -1299,6 +1299,7 @@ header .container {
 }
 
 .support__card {
+  background: #FFF;
   display: none;
 }
 
@@ -1330,11 +1331,13 @@ header .container {
 
 .support__contents {
   margin: 50px 0;
+  border-radius: 20px;
 }
 
 .support__content {
   display: none;
   font-size: 18px;
+  border-radius: 15px;
   -webkit-box-shadow: 0 0 5px #DFDFDF;
           box-shadow: 0 0 5px #DFDFDF;
   padding: 20px 20px;
@@ -1464,6 +1467,7 @@ header .container {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 60%;
           flex: 0 0 60%;
+  margin-right: 46px;
 }
 
 .delivery__item.sd {
@@ -1533,5 +1537,11 @@ header .container {
 
 .under__item {
   margin: 0 15px;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 45px;
+  }
 }
 /*# sourceMappingURL=style.min.css.map */

@@ -907,7 +907,7 @@ header {
         align-items: center;
     }
     &__card {
-        
+        background: #FFF;
         display: none;
         &.active {
             display: flex;
@@ -929,10 +929,12 @@ header {
     }
     &__contents {
         margin: 50px 0;
+        border-radius: 20px;
     }
     &__content {
         display: none;
         font-size: 18px;
+        border-radius: 15px;
         box-shadow: 0 0 5px #DFDFDF;
         padding: 20px 20px;
         line-height: 30px;
@@ -1027,6 +1029,7 @@ header {
         line-height: 20px;
         &.ft {
             flex: 0 0 60%;
+            margin-right: 46px;
         }
         &.sd {
             flex: 0 0 36%;
@@ -1074,5 +1077,13 @@ header {
     background: #000;
     &__item {
         margin: 0 15px;
+    }
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .container {
+        padding: 45px;
     }
 }
